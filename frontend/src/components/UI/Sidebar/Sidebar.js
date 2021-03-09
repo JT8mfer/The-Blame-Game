@@ -1,13 +1,7 @@
-import './Center.css'
+import React from "react";
 
-import React from 'react'
-
-function Sidebar() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const Sidebar = () => {
+  return <div>sidebar</div>;
+};
 
 export default Sidebar;
