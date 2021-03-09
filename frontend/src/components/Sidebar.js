@@ -1,8 +1,8 @@
-import './footer.css'
+import './Sidebar.css'
 
 import React from 'react'
 
-function Footer() {
+function Sidebar() {
     return (
         <div>
             
@@ -10,4 +10,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default Sidebar;

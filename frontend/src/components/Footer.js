@@ -1,8 +1,8 @@
-import './Navbar.css';
+import './Footer.css'
 
 import React from 'react'
 
-function Navbar() {
+function Footer() {
     return (
         <div>
             
@@ -10,4 +10,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Footer;
