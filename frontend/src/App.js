@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../src/components/UI/Navbar/Navbar'
-import Center from '../src/components/UI/Center/Center'
-import Sidebar from '../src/components/UI/Sidebar/Sidebar'
-import Footer from '../src/components/UI/Footer/Footer'
+import Navbar from './components/Navbar'
+import Center from './components/Center'
+import Sidebar from './components/Sidebar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div>
-      {/* Navbar */}
+      {/* <Navbar /> */}
       {/* Center */}
       {/* Sidebar */}
       {/* Footer */}
