@@ -10,7 +10,6 @@ import Team from "./pages/Team";
 const App = () => {
   return (
     <div>
-      <Center />
   
       <Router>
         <Sidebar />
@@ -23,6 +22,7 @@ const App = () => {
           <Route path="/team" exact component={Team} />
         </Switch>
       </Router>
+      <Center />
     </div>
   );
 };
