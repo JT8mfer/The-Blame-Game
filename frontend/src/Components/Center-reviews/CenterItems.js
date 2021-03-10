@@ -1,4 +1,4 @@
-const CenterItem = (props) => {
+const CenterItems = (props) => {
     return(
         <div>
             <h2>{props.name}</h2>
@@ -8,4 +8,4 @@ const CenterItem = (props) => {
     );
 }
 
-export default CenterItem;
+export default CenterItems;
