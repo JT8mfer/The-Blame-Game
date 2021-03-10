@@ -1,6 +1,8 @@
-import Center from "../src/components/UI/Center/Center";
-import Sidebar from "../src/components/UI/Sidebar/Sidebar";
-import Footer from "../src/components/UI/Footer/Footer";
+import React from "react";
+// import Navbar from "../src/components/UI/Navbar/Navbar";
+// import Center from "../src/components/UI/Center/Center";
+import Sidebar from "../src/components/Sidebar";
+// import Footer from "../src/components/UI/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";

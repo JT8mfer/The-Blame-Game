@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import { SidebarData } from "./SidebarData";
+import { SidebarData } from "./sidebarData";
 import SubMenu from "./subMenu";
 import { IconContext } from "react-icons/lib";
 
