@@ -1,19 +1,17 @@
 import React from "react";
-// import Navbar from "../src/components/UI/Navbar/Navbar";
-// import Center from "../src/components/UI/Center/Center";
+import Center from "./Components/Center-reviews/Center";
 import Sidebar from "./Components/Sidebar";
-// import Footer from "../src/components/UI/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 
+
 const App = () => {
   return (
     <div>
-      {/* Navbar */}
-      {/* Center */}
-      {/* sidebar */}
+      <Center />
+  
       <Router>
         <Sidebar />
         <Switch>
@@ -25,8 +23,6 @@ const App = () => {
           <Route path="/team" exact component={Team} />
         </Switch>
       </Router>
-      {/* sidebar */}
-      {/* Footer */}
     </div>
   );
 };
