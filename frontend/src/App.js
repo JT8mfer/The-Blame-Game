@@ -4,10 +4,7 @@ import Center from "./Components/Center-reviews/Center";
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <Center />
-      {/* Sidebar */}
-      {/* Footer */}
     </div>
   );
 };
