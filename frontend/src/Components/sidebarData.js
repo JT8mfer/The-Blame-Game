@@ -26,6 +26,11 @@ export const SidebarData = [
     ],
   },
   {
+    title: "User Settings",
+    path: "/team",
+    icon: <IoIcons.IoMdPeople />,
+  },
+  {
     title: "Reviews",
     path: "/reports",
     icon: <IoIcons.IoIosPaper />,
@@ -82,10 +87,5 @@ export const SidebarData = [
     title: "Support",
     path: "/support",
     icon: <IoIcons.IoMdHelpCircle />,
-  },
-  {
-    title: "The team with no name",
-    path: "/team",
-    icon: <IoIcons.IoMdPeople />,
   },
 ];

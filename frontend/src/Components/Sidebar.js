@@ -6,6 +6,7 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./sidebarData";
 import SubMenu from "./subMenu";
 import { IconContext } from "react-icons/lib";
+import Searchbar from "./Searchbar";
 
 const Nav = styled.div`
   background: #15171c;
@@ -49,6 +50,8 @@ const Sidebar = () => {
           <NavIcon to="#">
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
+
+          <Searchbar />
         </Nav>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>
