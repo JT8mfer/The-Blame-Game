@@ -1,7 +1,7 @@
 import React from "react";
 // import Navbar from "../src/components/UI/Navbar/Navbar";
 // import Center from "../src/components/UI/Center/Center";
-import Sidebar from "../src/components/Sidebar";
+import Sidebar from "./Components/Sidebar";
 // import Footer from "../src/components/UI/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Overview from "./pages/Overview";
