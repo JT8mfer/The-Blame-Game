@@ -5,12 +5,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
-
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-  
+    <div className="mainBody">
       <Router>
         <Sidebar />
         <Switch>
