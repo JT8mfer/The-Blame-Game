@@ -75,8 +75,12 @@ li {
 }
 .input {
   display: flex;
-
+  border-radius: 45px;
   height: 4vh;
   color: yellow;
   background-color: transparent;
+}
+.box {
+  display: flex;
+  flex-direction: column-reverse;
 }

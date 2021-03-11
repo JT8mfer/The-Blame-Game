@@ -1,9 +1,7 @@
 .searchbar {
   background-position: 0vh;
-  background-size: 23%;
-
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/6/68/BBC_Northern_Ireland_The_Blame_Game_Title_Card.png);
-  opacity: 0.8;
+  background-size: 40%;
+  background-image: url(https://image.shutterstock.com/image-vector/gaming-elements-dark-pattern-design-260nw-1757436587.jpg);
   border-radius: 15px;
   width: 85vh;
   height: 4vh;
@@ -11,5 +9,8 @@
   color: white;
   text-align: center;
   font-size: 2rem;
-  box-shadow: 5px 5px 5px 5px darkorchid;
+  box-shadow: 1px 2px 2px 2px darkorchid;
+}
+.searchbar:hover {
+  color: yellow;
 }

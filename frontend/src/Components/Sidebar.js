@@ -7,12 +7,13 @@ import { SidebarData } from "./sidebarData";
 import SubMenu from "./subMenu";
 import { IconContext } from "react-icons/lib";
 import Searchbar from "./Searchbar";
-import LogIn from "./Actions/LogIn";
+//try get this back in
+// import LogIn from "./Actions/LogIn";
 
 const Nav = styled.div`
   background: #15171c;
   width: 100%;
-  height: 150px;
+  height: 110px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -54,7 +55,7 @@ const Sidebar = () => {
           </NavIcon>
 
           <Searchbar />
-          <LogIn />
+          {/* <LogIn /> */}
         </Nav>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>

@@ -6,7 +6,7 @@ import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 import "./App.css";
-import logo from "./Components/blame-game-logo.jpg";
+import Logo from "./Components/blame-game-logo.jpg";
 import SignUp from "./Components/Actions/SignUp";
 
 const App = () => {
@@ -25,7 +25,8 @@ const App = () => {
           <Route path="/signup" exact component={SignUp} />
         </Switch>
       </Router>
-      <img src={logo} alt="logo"></img>
+      <img src={Logo} alt="logo"></img>
+      <SignUp />
       <Center />
     </div>
   );
