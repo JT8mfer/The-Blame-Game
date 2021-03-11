@@ -6,14 +6,15 @@ import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 import "./App.css";
-import logo from "./Components/blame-game-logo.jpg";
+import Logo from "./Components/logo/logo";
+import SignUp from "./Components/Actions/SignUp"
 
 const App = () => {
   return (
     <div className="mainBody">
       <Router>
         <Sidebar />
-
+        
         <Switch>
           <Route path="/overview" exact component={Overview} />
           <Route path="/reports" exact component={Reports} />
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/reports/reports2" exact component={ReportsTwo} />
           <Route path="/reports/reports3" exact component={ReportsThree} />
           <Route path="/team" exact component={Team} />
+          <Route path="/signup" exact component={SignUp} />
         </Switch>
       </Router>
       <img src={logo} alt="logo"></img>

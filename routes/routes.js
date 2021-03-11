@@ -57,40 +57,26 @@ router.get("/:userName", (req, res) => {
   });
 });
 
-router.post("/", async (req, res) => {
+router.post("/signup", async (req, res) => {
+  console.log(req.body)
   if (req.body.password === req.body.verifyPassword) {
-    const data = {
-      userName: req.body.userName,
-      email: req.body.email,
-      password: await bcrypt.hash(req.body.password, saltRounds),
-    };
-    new User(data).save((err, obj) => {
-      if (err) {
-        res.status(500).json({ msg: err });
-      } else {
-        res.status(200).json(obj);
-      }
-    });
-    save((err, obj) => {
-      if (err) {
-        res.status(200);
-        res.send({
-          Status: "ERROR",
-          message:
-            "Oops! This email is already in use. Please enter another and try again",
-        });
-      } else {
-        res.status(200);
-        res.send({
-          Status: "WORKING",
-          Email: req.body.email,
-          Password: req.body.password,
-        });
-      }
-    });
-  } else if (req.body.password !== req.body.verifyPassword) {
-    res.status(200);
-    res.send({ Status: "ERROR", message: "Your passwords do not match" });
+    bcrypt.hash(req.body.password, saltRounds, (err, hash) => {
+      const data = {
+        userName: req.body.userName,
+        email: req.body.email,
+        password: hash
+      };
+      console.log(data)
+      new User(data).save((err, obj) => {
+        if (err) {
+          res.status(500).json({ msg: err });
+        } else {
+          res.status(200).json(obj);
+        }
+      });
+    })
+  } else {
+    res.status(401).json({ msg: "Passwords dont match" })
   }
 });
 
