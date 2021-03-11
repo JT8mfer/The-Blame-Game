@@ -7,11 +7,7 @@ const LogIn = () => {
       <li>
         <button>Log In</button>
       </li>
-      <li>
-        <button>Sign Up</button>
-      </li>
     </ul>
   );
 };
-
 export default LogIn;

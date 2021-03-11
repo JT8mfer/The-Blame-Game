@@ -6,12 +6,14 @@ import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 import "./App.css";
+import Logo from "./Components/logo/logo";
 
 const App = () => {
   return (
     <div className="mainBody">
       <Router>
         <Sidebar />
+
         <Switch>
           <Route path="/overview" exact component={Overview} />
           <Route path="/reports" exact component={Reports} />
@@ -21,6 +23,7 @@ const App = () => {
           <Route path="/team" exact component={Team} />
         </Switch>
       </Router>
+
       <Center />
     </div>
   );
