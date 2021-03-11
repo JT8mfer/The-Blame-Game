@@ -1,3 +1,6 @@
+import React from 'react';
+import { AiOutlineMessage } from "react-icons/ai";
+
 const CenterItems = (props) => {
     return(
         <div className="ReviewsContainer">
@@ -10,6 +13,7 @@ const CenterItems = (props) => {
             <h2 className="titleReview">{props.name}</h2>
             <div className="date">{props.date}</div>
             <div className="description">{props.description}</div>
+            <div className="commentIcon"><button className="commentButton"><AiOutlineMessage/></button></div>
             </div>
 
         </div>
