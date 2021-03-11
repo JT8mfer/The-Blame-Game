@@ -21,6 +21,7 @@ class Center extends React.Component {
         <div>
             <div className="containerReview">
                 {eachCenterItem}
+                 
             </div>
             
         </div>
