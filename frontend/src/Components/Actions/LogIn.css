@@ -15,7 +15,7 @@ ul li {
   flex-direction: column;
   box-sizing: border-box;
   width: 10em;
-  height: 1.5em;
+  height: 2.5em;
   font-size: 18px;
   border-radius: 1em;
   margin: 0.5em;
@@ -31,7 +31,8 @@ ul li {
 ul li:nth-child(odd) {
   background: linear-gradient(to right, #00ffff, darkorchid);
   text-align: left;
-  padding-left: 10%;
+  padding-left: 15%;
+  padding-top: 13%;
   transform: perspective(500px) rotateY(45deg);
 }
 
@@ -39,7 +40,7 @@ ul li:nth-child(even) {
   background: linear-gradient(to left, #00ffff, darkorchid);
   text-align: right;
   padding-right: 10%;
-  transform: perspective(500px) rotateY(-45deg);
+  transform: perspective(400px) rotateY(-45deg);
 }
 
 ul li:nth-child(odd):hover {
@@ -63,10 +64,19 @@ button {
 .LOG {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2vh;
 }
 li {
   margin-top: 2vh;
   padding-left: 3vh;
   display: flex;
   flex-wrap: wrap;
+}
+.input {
+  display: flex;
+
+  height: 4vh;
+  color: yellow;
+  background-color: transparent;
 }
