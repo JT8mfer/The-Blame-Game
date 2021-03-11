@@ -7,6 +7,7 @@ import { SidebarData } from "./sidebarData";
 import SubMenu from "./subMenu";
 import { IconContext } from "react-icons/lib";
 import Searchbar from "./Searchbar";
+import LogIn from "./Actions/LogIn";
 
 const Nav = styled.div`
   background: #15171c;
@@ -45,13 +46,14 @@ const Sidebar = () => {
   const showSidebar = () => setSidebar(!sidebar);
   return (
     <>
-      <IconContext.Provider value={{ color: "#009B77" }}>
+      <IconContext.Provider value={({ color: "#009B77" }, { size: "4vh" })}>
         <Nav>
           <NavIcon to="#">
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
 
           <Searchbar />
+          <LogIn />
         </Nav>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>
