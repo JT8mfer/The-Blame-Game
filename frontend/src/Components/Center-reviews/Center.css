@@ -18,7 +18,7 @@
     margin-bottom: 150px;
     padding-bottom: 20px;
     padding-right: 20px;
-    background-color: white;
+    background-color:#17151C;
 }
 
 .CenterImage{
@@ -33,7 +33,7 @@
     margin-bottom: 10px;
     font-family: 'Roboto';
     font-size: 13px;
-    color:black;
+    color:white;
 }
 
 .DetailsContainer{
@@ -41,9 +41,9 @@
 }
 .titleReview{
     font-family: 'DotGothic16';
-    color: black;
+    color: white;
 }
 .description{
     font-family: 'Roboto';
-    color: black;
+    color: white;
 }
