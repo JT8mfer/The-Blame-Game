@@ -6,7 +6,6 @@ import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 import "./App.css";
-import Logo from "./Components/logo/logo";
 
 const App = () => {
   return (
