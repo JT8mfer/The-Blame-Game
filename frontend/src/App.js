@@ -6,15 +6,15 @@ import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 import "./App.css";
-import Logo from "./Components/logo/logo";
-import SignUp from "./Components/Actions/SignUp"
+import logo from "./Components/blame-game-logo.jpg";
+import SignUp from "./Components/Actions/SignUp";
 
 const App = () => {
   return (
     <div className="mainBody">
       <Router>
         <Sidebar />
-        
+
         <Switch>
           <Route path="/overview" exact component={Overview} />
           <Route path="/reports" exact component={Reports} />

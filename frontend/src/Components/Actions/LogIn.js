@@ -5,14 +5,14 @@ const LogIn = () => {
   return (
     <ul>
       <li>
-        <button>
+        <button className="LOG">
           log In
-          <input></input>
+          <input type="email"></input>
           <input type="password"></input>
         </button>
       </li>
       <li>
-        <button>Sign Up</button>
+        <button className="SU">Sign Up</button>
       </li>
     </ul>
   );

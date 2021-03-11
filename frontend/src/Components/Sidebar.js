@@ -11,7 +11,7 @@ import LogIn from "./Actions/LogIn";
 
 const Nav = styled.div`
   background: #15171c;
-  height: 80px;
+  height: 150px;
   display: flex;
   justify-content: flex-start;
   align-items: center;

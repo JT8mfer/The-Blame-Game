@@ -2,14 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
 ul {
-  padding-left: 45vh;
+  padding-left: 35vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
 ul li {
   display: flex;
-  flex-wrap: wrap;
-
+  flex-wrap: nowrap;
+  flex-direction: column;
   box-sizing: border-box;
   width: 10em;
   height: 1.5em;
@@ -22,7 +25,7 @@ ul li {
   text-transform: capitalize;
   line-height: 1.5em;
   transition: 0.3s;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 ul li:nth-child(odd) {
@@ -40,13 +43,13 @@ ul li:nth-child(even) {
 }
 
 ul li:nth-child(odd):hover {
-  transform: perspective(200px) rotateY(45deg);
+  transform: perspective(180px) rotateY(45deg);
   padding-left: 5%;
 }
 
 ul li:nth-child(even):hover {
-  transform: perspective(200px) rotateY(-45deg);
-  padding-right: 5%;
+  transform: perspective(180px) rotateY(-45deg);
+  padding-right: 15%;
 }
 button {
   height: 2.5vh;
@@ -56,4 +59,14 @@ button {
   border-radius: 15px;
   background-color: darkorchid;
   color: black;
+}
+.LOG {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  margin-top: 2vh;
+  padding-left: 3vh;
+  display: flex;
+  flex-wrap: wrap;
 }
