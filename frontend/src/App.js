@@ -6,6 +6,7 @@ import Overview from "./pages/Overview";
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from "./pages/Reports";
 import Team from "./pages/Team";
 import "./App.css";
+import logo from "./Components/blame-game-logo.jpg";
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
           <Route path="/team" exact component={Team} />
         </Switch>
       </Router>
-
+      <img src={logo} alt="logo"></img>
       <Center />
     </div>
   );
