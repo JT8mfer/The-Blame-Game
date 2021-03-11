@@ -3,12 +3,12 @@ import "./LogIn.css";
 
 const LogIn = () => {
   return (
-    <ul>
+    <ul className="box">
       <li>
-        <button className="LOG">log In</button>
+        <button className="LOG">Log In</button>
       </li>
+      <input type="password" placeholder="Password" className="input"></input>
       <input type="email" placeholder="Username" className="input"></input>
-      <input type="password" placeholder="password" className="input"></input>
     </ul>
   );
 };

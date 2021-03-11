@@ -2,17 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
 ul {
-  padding-left: 35vh;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  padding-left: 30vh;
+
   list-style-type: none;
 }
 
 ul li {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
   box-sizing: border-box;
   width: 10em;
   height: 2.5em;
@@ -31,16 +26,16 @@ ul li {
 ul li:nth-child(odd) {
   background: linear-gradient(to right, #00ffff, darkorchid);
   text-align: left;
-  padding-left: 15%;
-  padding-top: 13%;
-  transform: perspective(500px) rotateY(45deg);
+  padding-left: 5%;
+  padding-top: -3%;
+  transform: perspective(35vh) rotateY(45deg);
 }
 
 ul li:nth-child(even) {
-  background: linear-gradient(to left, #00ffff, darkorchid);
+  background: linear-gradient(to right, #00ffff, darkorchid);
   text-align: right;
   padding-right: 10%;
-  transform: perspective(400px) rotateY(-45deg);
+  transform: perspective(10px) rotateY(-45deg);
 }
 
 ul li:nth-child(odd):hover {
@@ -53,30 +48,33 @@ ul li:nth-child(even):hover {
   padding-right: 15%;
 }
 button {
-  height: 2.5vh;
-  width: 15vh;
-  font-weight: 100;
+  margin-left: -15px;
+  margin-top: 5px;
+  border-color: #009b77;
+  height: 5.1vh;
+  width: 20vh;
+  font-size: 1.8rem;
   font-family: "DotGothic16";
   border-radius: 15px;
   background-color: darkorchid;
   color: black;
 }
-.LOG {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-bottom: 2vh;
-}
-li {
-  margin-top: 2vh;
-  padding-left: 3vh;
-  display: flex;
-  flex-wrap: wrap;
-}
-.input {
-  display: flex;
 
+.input {
+  text-align: center;
+  font-size: 1rem;
+  box-shadow: 1px 1px 5px 5px;
+  border-radius: 45px;
   height: 4vh;
-  color: yellow;
+  color: darkorchid;
   background-color: transparent;
+  margin-left: 35px;
+  margin-top: 14px;
+  margin-right: 25px;
+}
+
+.box {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row-reverse;
 }
