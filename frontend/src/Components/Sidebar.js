@@ -11,6 +11,7 @@ import LogIn from "./Actions/LogIn";
 
 const Nav = styled.div`
   background: #15171c;
+  width: 100%;
   height: 150px;
   display: flex;
   justify-content: flex-start;
@@ -34,7 +35,7 @@ const SidebarNav = styled.nav`
   position: fixed;
   top: 0;
   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
-  transition: 450ms;
+  transition: 250ms;
   z-index: 10;
 `;
 const SidebarWrap = styled.div`
