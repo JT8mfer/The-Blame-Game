@@ -5,7 +5,11 @@ const LogIn = () => {
   return (
     <ul>
       <li>
-        <button>Log In</button>
+        <button>
+          log In
+          <input></input>
+          <input type="password"></input>
+        </button>
       </li>
       <li>
         <button>Sign Up</button>

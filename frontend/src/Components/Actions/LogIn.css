@@ -7,6 +7,9 @@ ul {
 }
 
 ul li {
+  display: flex;
+  flex-wrap: wrap;
+
   box-sizing: border-box;
   width: 10em;
   height: 1.5em;
