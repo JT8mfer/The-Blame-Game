@@ -1,6 +1,4 @@
 import React from "react";
-
-import React from "react";
 import { ReactComponent as Logo } from "../../assets/instagram.svg";
 import "./login.css";
 class Login extends React.Component {
