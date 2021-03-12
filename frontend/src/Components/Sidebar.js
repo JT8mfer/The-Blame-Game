@@ -55,8 +55,10 @@ const Sidebar = () => {
           </NavIcon>
 
           <Searchbar />
+
           {/* <LogIn /> */}
         </Nav>
+
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>
             <NavIcon to="#">

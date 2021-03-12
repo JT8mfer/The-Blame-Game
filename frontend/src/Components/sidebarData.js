@@ -7,59 +7,26 @@ import * as RiIcons from "react-icons/ri";
 export const SidebarData = [
   {
     title: "Home",
-    path: "/overview",
+    path: "/",
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: "Users",
-        path: "/overview/users",
-        icon: <IoIcons.IoIosPaper />,
-      },
-      {
-        title: "Revenue",
-        path: "/overview/revenue",
-        icon: <IoIcons.IoIosPaper />,
-      },
-    ],
   },
   {
-    title: "User Settings",
-    path: "/team",
+    title: "Log In",
+    path: "/login",
     icon: <IoIcons.IoMdPeople />,
   },
   {
-    title: "Reviews",
-    path: "/reports",
+    title: "Sign Up",
+    path: "/signup",
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: "Review",
-        path: "/reports/reports1",
-        icon: <IoIcons.IoIosPaper />,
-        cName: "sub-nav",
-      },
-      {
-        title: "Review 2",
-        path: "/reports/reports2",
-        icon: <IoIcons.IoIosPaper />,
-        cName: "sub-nav",
-      },
-      {
-        title: "Review 3",
-        path: "/reports/reports3",
-        icon: <IoIcons.IoIosPaper />,
-      },
-    ],
   },
   {
     title: "Purchase Games",
-    path: "/products",
+    path: "/product",
     icon: <FaIcons.FaCartPlus />,
   },
   {
@@ -72,12 +39,12 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: "Message 1",
+        title: "Super Mario World 3D",
         path: "/messages/message1",
         icon: <IoIcons.IoIosPaper />,
       },
       {
-        title: "Message 2",
+        title: "Dicey Dungeons",
         path: "/messages/message2",
         icon: <IoIcons.IoIosPaper />,
       },
