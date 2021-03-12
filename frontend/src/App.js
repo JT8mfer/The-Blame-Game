@@ -31,8 +31,8 @@ const App = () => {
       <img src={Logo} alt="logo"></img>
 
       <SignUp />
+      <StarRating/>
       <Center />
-      <StarRating />
     </div>
   );
 };

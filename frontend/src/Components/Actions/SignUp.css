@@ -81,7 +81,6 @@
   max-width: 51vh;
   height: 30vh;
   min-width: 45vh;
-  background-color: ;
   margin-left: 100vh;
   border-bottom: 10vh;
 }
@@ -90,9 +89,9 @@
   flex-wrap: wrap;
   text-align: center;
 }
+/*
 input {
   font-family: "Ravi Prakash";
-  font-family: ;
   color: yellow;
   font-size: 0.7rem;
   border-radius: 45px;
@@ -106,6 +105,7 @@ label {
   padding: 5px;
   box-shadow: yellow 1px 1px 1px 1px;
 }
+*/
 h1 {
   font-size: 3.5vh;
   font-family: "Ravi Prakash";
