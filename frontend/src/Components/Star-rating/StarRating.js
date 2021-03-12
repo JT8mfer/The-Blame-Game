@@ -1,4 +1,5 @@
  import React, {useState} from "react";
+ import "./StarRating.css";
  import {FaStar} from 'react-icons/fa';
 
  const StarRating = () => {
@@ -25,7 +26,7 @@
              </label>
          );
          })}
-         <p>The rating is {rating}</p>
+         <p className="starRatingtext">The rating is {rating}</p>
     </div>
      );
  };
