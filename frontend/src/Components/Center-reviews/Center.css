@@ -10,6 +10,12 @@
   background-color: mediumaquamarine;
   margin-top: 20px;
 }
+.sidelogo{
+  margin-left: 30px;
+}
+.searchbar{
+  margin-left: 448px;
+}
 .commentButton:hover{
   background-color: mediumorchid;
 }
@@ -48,7 +54,7 @@
   margin-bottom: 20px;
   font-family: "Roboto";
   font-size: 13px;
-  color: white;
+  color: mediumaquamarine;
 }
 
 .DetailsContainer {
@@ -57,12 +63,13 @@
 .titleReview {
   font-family: "Ravi Prakash";
   font-size: 40px;
-  color: white;
+  color: rgb(228, 228, 39);
 }
 .description {
   font-family: "Roboto";
   color: white;
 }
+
 
 @media all and (max-width:700px) {
   .description{
@@ -102,13 +109,18 @@
   .starRatingtext{
     display: none;
   }
+  .sidelogo{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
   .searchbar{
-    margin-left: -30px;
+    margin-left: 135px;
+    margin-top: 10px;
     width: 200px;
   }
   [alt=logo]{
-    width:300px;
-    margin-left: 140px;
+    width:200px;
+    margin-left: 190px;
     margin-top: 15px;
     margin-bottom: 10px;
   }
