@@ -51,7 +51,7 @@ const Sidebar = () => {
       <IconContext.Provider value={({ color: "#009B77" }, { size: "4vh" })}>
         <Nav>
           <NavIcon to="#">
-            <FaIcons.FaBars onClick={showSidebar} />
+            <FaIcons.FaBars onClick={showSidebar} className="sidelogo" />
           </NavIcon>
 
           <Searchbar />

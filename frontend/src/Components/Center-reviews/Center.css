@@ -10,6 +10,12 @@
   background-color: mediumaquamarine;
   margin-top: 20px;
 }
+.sidelogo{
+  margin-left: 30px;
+}
+.searchbar{
+  margin-left: 448px;
+}
 .commentButton:hover{
   background-color: mediumorchid;
 }
@@ -103,13 +109,18 @@
   .starRatingtext{
     display: none;
   }
+  .sidelogo{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
   .searchbar{
-    margin-left: 150px;
+    margin-left: 135px;
+    margin-top: 10px;
     width: 200px;
   }
   [alt=logo]{
-    width:300px;
-    margin-left: 140px;
+    width:200px;
+    margin-left: 190px;
     margin-top: 15px;
     margin-bottom: 10px;
   }
