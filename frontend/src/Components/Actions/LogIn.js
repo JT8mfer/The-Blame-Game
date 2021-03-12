@@ -29,13 +29,13 @@ function logIn() {
 
     <div className="logIn">
       <h1 className="logIn_header">Log In</h1>
-        <form onSubmit={onSubmit} className="logInForm">
+        <form onSubmit= {onSubmit} className="logInForm">
           
           <label htmlfor="email">Email Address:</label>
           <input onChange = {onChange} value = {email} type="email" id="email" placeholder="Email"></input>
 
           <label htmlfor="password">Password:</label>
-          <input onChange={onChange} value={password} type="password" id="password" placeholder="Password"></input>
+          <input onChange= {onChange} value={password} type="password" id="password" placeholder="Password"></input>
         
           <input id="submit_logIn" type="submit" value="Log In"></input>
         
@@ -44,5 +44,5 @@ function logIn() {
         </form>
     </div>
   );
-};
+
 export default LogIn;
