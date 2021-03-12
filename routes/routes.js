@@ -57,16 +57,17 @@ router.get("/:userName", (req, res) => {
   });
 });
 
+//Sign Up
 router.post("/signup", async (req, res) => {
-  console.log(req.body)
+  console.log(req.body);
   if (req.body.password === req.body.verifyPassword) {
     bcrypt.hash(req.body.password, saltRounds, (err, hash) => {
       const data = {
         userName: req.body.userName,
         email: req.body.email,
-        password: hash
+        password: hash,
       };
-      console.log(data)
+      console.log(data);
       new User(data).save((err, obj) => {
         if (err) {
           res.status(500).json({ msg: err });
@@ -74,21 +75,25 @@ router.post("/signup", async (req, res) => {
           res.status(200).json(obj);
         }
       });
-    })
+    });
   } else {
-    res.status(401).json({ msg: "Passwords dont match" })
+    res.status(401).json({ msg: "Passwords dont match" });
   }
 });
 
-// router.delete("/:userName", async (req, res) => {
-//   User.deleteOne({ email }, (err, user) => {
-//     if (err) {
-//       console.log(err);
-//       res.status(200).json({ msg: err });
-//     } else {
-//       res.status(200).json(obj);
-//     }
-//   });
-// });
+//Log In
+router.post("/login", async (req, res) => {
+  const email = req.body.email;
+  const password = req.body.password;
+  if (await User.checkPassword(email, password)) {
+    User.find({ email }, (err, user) => {
+      req.session.email = user.email;
+      req.session.save();
+      res.status(200).json({ status: "You are now logged in", user });
+    });
+    return;
+  }
+  res.status(200).json({ status: "Login Unsuccessful" });
+});
 
 module.exports = router;
