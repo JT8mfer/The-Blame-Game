@@ -8,6 +8,7 @@ import Team from "./pages/Team";
 import "./App.css";
 import Logo from "./Components/blame-game-logo.jpg";
 import SignUp from "./Components/Actions/SignUp";
+// import LogIn from "./Components/Actions/LogIn";
 
 const App = () => {
   return (
@@ -25,7 +26,9 @@ const App = () => {
           <Route path="/signup" exact component={SignUp} />
         </Switch>
       </Router>
+      {/* <LogIn /> */}
       <img src={Logo} alt="logo"></img>
+
       <SignUp />
       <Center />
     </div>

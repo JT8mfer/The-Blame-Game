@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap");
+
 .signup {
   display: flex;
   flex-wrap: wrap;
@@ -68,16 +70,51 @@
   border-radius: 45px;
   text-align: center;
   background-image: url(https://i.pinimg.com/originals/ec/ff/7d/ecff7dfbaf2764923c2a1a73ed9112ef.jpg);
-  background-size: 100%;
-  color: darkorchid;
+  background-size: 121%;
+
+  color: yellow;
   justify-content: center;
-  text-shadow: 1px 1px yellow;
+  text-shadow: 1px 1px darkorchid;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 51vh;
-  height: 24vh;
+  height: 30vh;
+  min-width: 45vh;
   background-color: ;
-  margin-left: 110vh;
+  margin-left: 100vh;
   border-bottom: 10vh;
+}
+.createUserForm {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+input {
+  font-family: "Ravi Prakash";
+  font-family: ;
+  color: yellow;
+  font-size: 0.8rem;
+  border-radius: 45px;
+  background-color: #17151c;
+  opacity: 0.7;
+}
+label {
+  font-family: "Ravi Prakash";
+  background-color: #000235;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: yellow 1px 1px 1px 1px;
+}
+h1 {
+  font-size: 3.5vh;
+  font-family: "Ravi Prakash";
+}
+.Login-page {
+  box-shadow: 1px 1px 1px 1px yellow;
+  border-radius: 45px;
+  background-color: #000235;
+  font-family: "Ravi Prakash";
+  color: yellow;
+  text-shadow: 1px 1px 1px 1px yellow;
 }
