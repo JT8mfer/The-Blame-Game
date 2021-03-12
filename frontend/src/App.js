@@ -8,6 +8,7 @@ import Team from "./pages/Team";
 import "./App.css";
 import Logo from "./Components/blame-game-logo.jpg";
 import SignUp from "./Components/Actions/SignUp";
+import StarRating from "./Components/Star-rating/StarRating";
 // import LogIn from "./Components/Actions/LogIn";
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
 
       <SignUp />
       <Center />
+      <StarRating />
     </div>
   );
 };
