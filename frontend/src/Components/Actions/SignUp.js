@@ -10,18 +10,8 @@ function SignUp() {
 
   const getResponse = async (e) => {
     e.preventDefault();
-    // const tmpdata = {
-    //     userName: userName,
-    //     email: email,
-    //     password: password,
-    //     verifyPassword: verifyPassword,
-    // }
-    // console.log(tmpdata)
-    // const response = await fetch ('http://localhost:5000/users/signup', {method: "POST", mode: "cors", body:tmpdata})
-    // const data = await response.json()
-    // console.log(data)
-    axios
-      .post("http://localhost:5000/users/signup", {
+  
+    axios.post("http://localhost:5000/users/signup", {
         userName: userName,
         email: email,
         password: password,
@@ -57,7 +47,9 @@ function SignUp() {
     <div className="createUser">
       <h1 className="createHeader">Create Account</h1>
       <form onSubmit={getResponse} className="createUserForm">
-        <label htmlFor="Username">Username:</label>
+        <label htmlFor="Username" className="btnlabel">
+          Username:
+        </label>
         <input
           id="userName"
           type="text"
@@ -67,7 +59,9 @@ function SignUp() {
           onChange={onChangeHandler}
         ></input>
 
-        <label htmlFor="email">Email Address:</label>
+        <label htmlFor="email" className="btnlabel">
+          Email Address:
+        </label>
         <input
           id="email"
           type="email"
@@ -77,7 +71,9 @@ function SignUp() {
           value={email}
         ></input>
 
-        <label htmlFor="password">Create Password</label>
+        <label htmlFor="password" className="btnlabel">
+          Create Password
+        </label>
         <input
           id="password"
           type="password"
@@ -87,7 +83,9 @@ function SignUp() {
           value={password}
         ></input>
 
-        <label htmlFor="verifyPassword">Verify Password</label>
+        <label htmlFor="verifyPassword" className="btnlabel">
+          Verify Password
+        </label>
         <input
           id="verifyPassword"
           type="password"
@@ -97,7 +95,7 @@ function SignUp() {
           value={verifyPassword}
         ></input>
 
-        <input type="submit" value="Submit"></input>
+        <input type="submit" value="Submit" className="btnlabel"></input>
 
         <a href="/" className="Login-page">
           Already have an account?

@@ -8,9 +8,14 @@ html {
   background-color: #17151c;
 }
 [alt="logo"] {
-  max-height: 25vh;
-  margin-left: 45vh;
+  max-height: 55vh;
+  width: 55vh;
   border-radius: 45px;
-  margin-top: 5vh;
+  margin-top: 10vh;
   box-shadow: 10px 10px 10px 10px;
+}
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

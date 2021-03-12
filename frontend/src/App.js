@@ -28,9 +28,12 @@ const App = () => {
         </Switch>
       </Router>
       {/* <LogIn /> */}
-      <img src={Logo} alt="logo"></img>
+      <div className="heading">
+        <img src={Logo} alt="logo"></img>
 
-      <SignUp />
+        {/* <SignUp /> */}
+      </div>
+
       <Center />
     </div>
   );
