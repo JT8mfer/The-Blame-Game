@@ -1,12 +1,14 @@
 import React from 'react';
+import StarRating from "../Star-rating/StarRating";
 import { AiOutlineMessage } from "react-icons/ai";
 
 const CenterItems = (props) => {
     return(
+        
         <div className="ReviewsContainer">
-
             <div className="ImageContainer">
             <img alt="centerImage" src={props.centerimage} className="CenterImage" />
+            <div className="starratingContainer"><StarRating/></div>
             </div>
 
             <div className="DetailsContainer"> 
