@@ -14,9 +14,10 @@ input[type="radio"] {
     transition:color 200ms;
 }
 .starRatingtext{
-    color: white;
+    color: mediumaquamarine;
+    margin-left: 13px;
 }
 .starratingContainer{
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 20%;
 }
