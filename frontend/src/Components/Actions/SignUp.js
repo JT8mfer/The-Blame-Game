@@ -99,7 +99,7 @@ function SignUp() {
 
         <input type="submit" value="Submit"></input>
 
-        <a href="/" className="login-page">
+        <a href="/" className="Login-page">
           Already have an account?
         </a>
       </form>
