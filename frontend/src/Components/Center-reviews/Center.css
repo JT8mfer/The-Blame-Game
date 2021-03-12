@@ -104,5 +104,12 @@
   }
   .searchbar{
     margin-left: -30px;
+    width: 200px;
+  }
+  [alt=logo]{
+    width:300px;
+    margin-left: 140px;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 }
