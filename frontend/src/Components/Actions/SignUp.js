@@ -10,18 +10,8 @@ function SignUp() {
 
   const getResponse = async (e) => {
     e.preventDefault();
-    // const tmpdata = {
-    //     userName: userName,
-    //     email: email,
-    //     password: password,
-    //     verifyPassword: verifyPassword,
-    // }
-    // console.log(tmpdata)
-    // const response = await fetch ('http://localhost:5000/users/signup', {method: "POST", mode: "cors", body:tmpdata})
-    // const data = await response.json()
-    // console.log(data)
-    axios
-      .post("http://localhost:5000/users/signup", {
+  
+    axios.post("http://localhost:5000/users/signup", {
         userName: userName,
         email: email,
         password: password,
