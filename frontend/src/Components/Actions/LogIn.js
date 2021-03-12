@@ -50,10 +50,11 @@ function LogIn() {
         ></input>
 
         <input id="submit_logIn" type="submit" value="Log In"></input>
-
-        <a href="/signup" className="signup_link">
-          Not got an account? Create one here!
-        </a>
+        <div className="pikalink">
+          <a href="/signup" className="signup_link">
+            Not got an account? Create one here!
+          </a>
+        </div>
       </form>
     </div>
   );
