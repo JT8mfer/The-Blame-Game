@@ -27,8 +27,12 @@ function SignUp() {
           setVerifyPassword("");
           sessionStorage.setItem("loggedIn", true);
           sessionStorage.setItem("email", res.data.email);
-        }
-      });
+        } 
+      }).catch((res) => {
+        alert("Passwords dont match")
+        setPassword("");
+        setVerifyPassword("");
+      })
   };
 
   const onChangeHandler = (e) => {
