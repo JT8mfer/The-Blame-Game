@@ -10,8 +10,9 @@ function SignUp() {
 
   const getResponse = async (e) => {
     e.preventDefault();
-  
-    axios.post("http://localhost:5000/users/signup", {
+
+    axios
+      .post("http://localhost:5000/users/signup", {
         userName: userName,
         email: email,
         password: password,
@@ -20,19 +21,20 @@ function SignUp() {
       .then((res) => {
         console.log(res);
         if (res.status === 200) {
-          alert("Account Created Succesfully");
+          alert("Yay! Your account has been created");
           setUser("");
           setEmail("");
           setPassword("");
           setVerifyPassword("");
           sessionStorage.setItem("loggedIn", true);
           sessionStorage.setItem("email", res.data.email);
-        } 
-      }).catch((res) => {
-        alert("Passwords dont match")
+        }
+      })
+      .catch((res) => {
+        alert("Whoops! Passwords do not match. Please try again!");
         setPassword("");
         setVerifyPassword("");
-      })
+      });
   };
 
   const onChangeHandler = (e) => {
