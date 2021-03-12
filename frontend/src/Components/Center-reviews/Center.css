@@ -4,8 +4,14 @@
 
 .commentButton {
   width: 60px;
-  padding-bottom: 33px;
+  padding-bottom: 5px;
   padding-top: 4px;
+  border-radius: 1em;
+  background-color: mediumaquamarine;
+  margin-top: 20px;
+}
+.commentButton:hover{
+  background-color: mediumorchid;
 }
 .commentIcon {
   margin-left: 83%;
