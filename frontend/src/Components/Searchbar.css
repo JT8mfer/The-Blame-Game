@@ -9,8 +9,10 @@
   color: white;
   text-align: center;
   font-size: 2rem;
+  color: yellow;
   box-shadow: 1px 2px 2px 2px darkorchid;
 }
 .searchbar:hover {
-  color: yellow;
+  color: yellowgreen;
+  box-shadow: 2px 2px 2px 3px teal;
 }
