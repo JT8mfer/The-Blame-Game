@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto:wght@300&display=swap');
 
+
 .commentButton{
-   width:60px;
-   padding-bottom: 20px;
+   width:80px;
+   padding-bottom: 33px;
+   padding-top: 4px;
 }
 .commentIcon{
     margin-left: 83%;
@@ -12,25 +15,31 @@
 .ReviewsContainer{
     display: flex;
     flex-direction: row;
-    margin-top: 15%;
+    margin-top: 3%;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10px;
     padding-bottom: 20px;
     padding-right: 20px;
     background-color:#17151C;
+    border-radius: 2em;
+    border-width: 3px ;
+    border-color:purple;
+    border-style:groove;
 }
 
 .CenterImage{
     width: 200px;
     margin-left: 20px;
+    border-radius: 1em;
+    margin-top: 20px;
 }
 .ImageContainer{
     margin-top: 40px;
     margin-right: 50px;
 }
 .date{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: 'Roboto';
     font-size: 13px;
     color:white;
@@ -40,7 +49,8 @@
     margin-top: -10px;
 }
 .titleReview{
-    font-family: 'DotGothic16';
+    font-family: 'Ravi Prakash';
+    font-size: 40px;
     color: white;
 }
 .description{
