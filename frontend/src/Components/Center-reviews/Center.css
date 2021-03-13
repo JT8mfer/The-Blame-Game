@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto:wght@300&display=swap");
+
+.commentButton {
+  width: 60px;
+  padding-bottom: 3px;
+  padding-top: 4px;
+  border-radius: 1em;
+  background-color: mediumaquamarine;
+  margin-top: 20px;
+}
+.sidelogo{
+  margin-left: 30px;
+}
+.searchbar{
+  margin-left: 448px;
+}
+.commentButton:hover{
+  background-color: mediumorchid;
+}
+.commentIcon {
+  margin-left: 83%;
+  margin-top: 5%;
+}
+.ReviewsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background-color: #17151c;
+  border-radius: 2em;
+  border-width: 3px;
+  border-color: purple;
+  border-style: groove;
+  box-shadow: 10px 10px 10px 10px black;
+}
+
+.CenterImage {
+  width: 200px;
+  margin-left: 20px;
+  border-radius: 1em;
+  margin-top: 20px;
+}
+.ImageContainer {
+  margin-top: 40px;
+  margin-right: 50px;
+}
+.date {
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-size: 13px;
+  color: mediumaquamarine;
+}
+
+.DetailsContainer {
+  margin-top: -10px;
+}
+.titleReview {
+  font-family: "Ravi Prakash";
+  font-size: 40px;
+  color: rgb(228, 228, 39);
+}
+.description {
+  font-family: "Roboto";
+  color: white;
+}
+
+
+@media all and (max-width:700px) {
+  .description{
+    display: none;
+  }
+  .ReviewsContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .DetailsContainer{
+    margin-left: 40px;
+    margin-right:40px;
+    margin-top: 10px;
+    
+  }
+  .CenterImage{
+    width: 130px;
+    margin-left: 80px;
+  }
+  .date{
+    margin-top: -15px;
+  }
+  .ImageContainer{
+    margin-left: 23px;
+  }
+  .starratingContainer{
+    margin-top: 10px;
+    margin-left: 105px;
+  }
+  .titleReview{
+    font-size:20px;
+   
+  }
+  .commentButton{
+    margin-left: -100px;
+  }
+  .starRatingtext{
+    display: none;
+  }
+  .sidelogo{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .searchbar{
+    margin-left: 135px;
+    margin-top: 10px;
+    width: 200px;
+  }
+  [alt=logo]{
+    width:200px;
+    margin-left: 190px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+}

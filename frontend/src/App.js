@@ -168,7 +168,7 @@ function App() {
     <div className="App">
       <p>Hello Jord!</p>
     </div>
+    // </div>
   );
-}
-
+};
 export default App;

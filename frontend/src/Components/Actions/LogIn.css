@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap");
+.logIn {
+  text-align: center;
+  align-content: center;
+  background-image: url(https://avatarfiles.alphacoders.com/189/189576.jpg);
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  width: 72vh;
+  box-shadow: 8px 8px 8px 8px black;
+  margin-left: 65vh;
+
+  background-size: 80%;
+  background-position-y: -59vh;
+  border-radius: 750px;
+  background-position-x: center;
+}
+.pikalink {
+  box-shadow: 4px 4px 4px 4px black;
+  text-decoration: none;
+  font-family: "Ravi Prakash";
+  font-family: ;
+  font-size: 1.5rem;
+  background-size: 75%;
+  background-image: url(https://cdn4.vectorstock.com/i/1000x1000/96/93/video-game-console-controller-pattern-seamless-vector-20479693.jpg);
+  text-align: center;
+  border-radius: 15px;
+  background-color: red;
+  margin-top: 25vh;
+  width: 25vh;
+  margin-left: 22vh;
+  height: 8vh;
+}
+h1 {
+  text-shadow: 2px 2px 2px 2px orchid;
+  font-family: "Ravi Prakash";
+  color: yellow;
+}
