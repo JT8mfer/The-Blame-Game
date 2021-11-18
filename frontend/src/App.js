@@ -7,7 +7,7 @@ import Team from "./pages/Team";
 import "./App.css";
 import SignUp from "./Components/Actions/SignUp";
 import Home from "./Components/home";
-import Login from "./Components/Actions/LogIn";
+import LogIn from "./Components/Actions/LogIn";
 
 const App = () => {
   return (
@@ -23,9 +23,10 @@ const App = () => {
           <Route path="/team" exact component={Team} />
           <Route path="/signup" exact component={SignUp} />
           <Route path="/" exact component={Home} />
-          <Route path="/login" exact component={Login} />
+          <Route path="/login" exact component={LogIn} />
         </Routes>
       </Router>
+      <Center/>
       {/* <LogIn /> */}
 
       {/* <SignUp /> */}
