@@ -8,6 +8,7 @@ import "./App.css";
 import SignUp from "./Components/Actions/SignUp";
 import Home from "./Components/home";
 import LogIn from "./Components/Actions/LogIn";
+import Center from "./Components/Center-reviews/Center";
 
 const App = () => {
   return (
