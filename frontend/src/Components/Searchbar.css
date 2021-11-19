@@ -1,14 +1,15 @@
 .searchbar {
   background-position: 0vh;
+  margin-left: 700px;
   background-size: 40%;
   background-image: url(https://image.shutterstock.com/image-vector/gaming-elements-dark-pattern-design-260nw-1757436587.jpg);
   border-radius: 15px;
   width: 65vh;
   height: 4vh;
-  margin-left: 63vh;
   color: white;
   text-align: center;
   font-size: 4rem;
+
 
   box-shadow: 1px 2px 2px 2px darkorchid;
   text-align: center;
@@ -17,4 +18,5 @@
 .searchbar:hover {
   color: yellowgreen;
   box-shadow: 2px 2px 2px 3px teal;
+  cursor: pointer;
 }

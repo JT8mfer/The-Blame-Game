@@ -4,17 +4,14 @@
 
 .commentButton {
   width: 60px;
-  padding-bottom: 33px;
-  padding-top: 4px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   border-radius: 1em;
   background-color: mediumaquamarine;
   margin-top: 20px;
 }
 .sidelogo{
   margin-left: 30px;
-}
-.searchbar{
-  margin-left: 448px;
 }
 .commentButton:hover{
   background-color: mediumorchid;
@@ -53,7 +50,7 @@
 .date {
   margin-bottom: 20px;
   font-family: "Roboto";
-  font-size: 13px;
+  font-size: 20px;
   color: mediumaquamarine;
 }
 
@@ -68,6 +65,7 @@
 .description {
   font-family: "Roboto";
   color: white;
+  font-size: 20px;
 }
 
 
