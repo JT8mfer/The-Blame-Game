@@ -47,11 +47,11 @@ function SignUp() {
     <div className="createUser">
       <h1 className="createHeader">Create Account</h1>
       <form onSubmit={getResponse} className="createUserForm">
-        <label htmlFor="Username" className="btnlabel">
-          Username:
+        <label htmlFor="Username" className="btnlabel" id="username">
+          Username :
         </label>
         <input
-          id="userName"
+          id="iusername"
           type="text"
           name="userName"
           placeholder="Username"
@@ -59,23 +59,23 @@ function SignUp() {
           onChange={onChangeHandler}
         ></input>
 
-        <label htmlFor="email" className="btnlabel">
-          Email Address:
+        <label htmlFor="email" className="btnlabel" id="emailsignup">
+          Email Address :
         </label>
         <input
-          id="email"
+          id="iemailsignup"
           type="email"
           name="email"
           placeholder="email"
           onChange={onChangeHandler}
           value={email}
         ></input>
-
-        <label htmlFor="password" className="btnlabel">
-          Create Password
+        
+        <label htmlFor="password" className="btnlabel" id="passwordsignup">
+          Create Password :
         </label>
         <input
-          id="password"
+          id="ipasswordsignup"
           type="password"
           name="password"
           placeholder="password"
@@ -83,11 +83,11 @@ function SignUp() {
           value={password}
         ></input>
 
-        <label htmlFor="verifyPassword" className="btnlabel">
-          Verify Password
+        <label htmlFor="verifyPassword" className="btnlabel" id="verifypassword">
+          Verify Password :
         </label>
         <input
-          id="verifyPassword"
+          id="iverifypassword"
           type="password"
           name="verifyPassword"
           placeholder="verifyPassword"
@@ -95,9 +95,9 @@ function SignUp() {
           value={verifyPassword}
         ></input>
 
-        <input type="submit" value="Submit" className="btnlabel"></input>
+        <input type="submit" value="Submit" className="btnlabel" id="submitbutton"></input>
 
-        <a href="/" className="Login-page">
+        <a href="/" id="Login-page" className="btnlabel">
           Already have an account?
         </a>
       </form>

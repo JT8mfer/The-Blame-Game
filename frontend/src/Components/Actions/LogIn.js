@@ -30,32 +30,37 @@ function LogIn() {
   return (
     <div className="logIn">
       <h1 className="logIn_header">Log In</h1>
+      <div className="logindetails"> 
       <form onSubmit={onSubmit} className="logInForm">
-        <label htmlfor="email">Email Address:</label>
+        <label htmlfor="email" className="email">Email Address:</label>
         <input
           onChange={onChange}
           value={email}
           type="email"
           id="email"
           placeholder="Email"
+          className="iemail"
         ></input>
-
-        <label htmlfor="password">Password:</label>
+        <label htmlfor="password" className="password">Password:</label>
         <input
           onChange={onChange}
           value={password}
           type="password"
           id="password"
           placeholder="Password"
+          className="ipassword"
         ></input>
+         
 
-        <input id="submit_logIn" type="submit" value="Log In"></input>
+        <input className="submit_logIn" type="submit" value="Log In"></input>
+        
         <div className="pikalink">
           <a href="/signup" className="signup_link">
-            Not got an account? Create one here!
+            Not got an account?Create one here!
           </a>
         </div>
       </form>
+      </div>
     </div>
   );
 }

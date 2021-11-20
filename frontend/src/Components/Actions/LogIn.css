@@ -6,15 +6,21 @@
   display: flexbox;
   flex-direction: column;
   justify-content: space-between;
-  height: 50vh;
-  width: 72vh;
+  height: 60vh;
+  width: 80vh;
   box-shadow: 8px 8px 8px 8px black;
-  margin-left: 65vh;
+  margin-left: 60vh;
 
   background-size: 80%;
   background-position-y: -59vh;
   border-radius: 750px;
   background-position-x: center;
+  margin-top: 20em;
+  margin-bottom: 20em;
+}
+.pikalink:hover{
+  color: black;
+  background-color: burlywood;
 }
 .pikalink {
   box-shadow: 4px 4px 4px 4px black;
@@ -25,14 +31,56 @@
   background-image: url(https://cdn4.vectorstock.com/i/1000x1000/96/93/video-game-console-controller-pattern-seamless-vector-20479693.jpg);
   text-align: center;
   border-radius: 15px;
-  background-color: red;
-  margin-top: 25vh;
-  width: 25vh;
-  margin-left: 22vh;
-  height: 8vh;
+  background-color: rgb(212, 143, 39);
+  margin-top: 3em;
+  width: 20vh;
+  margin-left: 14em;
+  height:4em;
+  padding-top: 1em;
 }
-h1 {
-  text-shadow: 2px 2px 2px 2px orchid;
+.logIn_header {
+  text-shadow: 2px 2px 2px 2px;
+  color:rgb(124, 16, 16);
   font-family: "Ravi Prakash";
-  color: yellow;
+  font-size: 7em;
+  padding-top: 30px;
 }
+
+.submit_logIn{
+  font-family: "Ravi Prakash";
+  opacity: 0.7;
+  color:rgb(124, 16, 16);
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.submit_logIn:hover{
+  background-color: rgb(238, 167, 15);
+  cursor: pointer;
+}
+.email,.password{
+  font-size: 2.7em;
+  color:rgb(124, 16, 16);
+  font-weight: 700;
+  background-color: rgb(238, 167, 15);
+  border-radius: 1em;
+  margin-right: 15px;
+}
+
+.iemail,.ipassword{
+  font-size: 30px;
+  opacity:0.6;
+  border-radius: 10px;
+  
+}
+.ipassword{
+  margin-right: 1em;
+  margin-top: 2em;
+}
+.email{
+  margin-left: 1.9em;
+}
+.signup_link{
+  color:rgb(124, 16, 16);
+}
+ 

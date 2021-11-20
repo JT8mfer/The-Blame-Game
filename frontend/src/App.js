@@ -28,9 +28,10 @@ const App = () => {
         </Routes>
       </Router>
       <Center/>
-      {/* <LogIn /> */}
+      
+      <LogIn />
 
-      {/* <SignUp /> */}
+      <SignUp /> 
     </div>
     // </div>
   );
